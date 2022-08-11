@@ -1,0 +1,200 @@
+html{
+    font-size: 10px;
+    color: purple;
+    }
+
+@font-face {
+    font-family: 'Irvin';
+    src: url(assets/fonts/Irvin-Heading.ttf);
+}
+@font-face {
+    font-family: 'Graphik';
+    src: url(assets/fonts/Graphik-Regular-Web.woff);
+}
+
+@font-face {
+    font-family: 'TNY Adobe Caslon COMP';
+    src: url(assets/fonts/AdobeCaslonPro-Italic.woff);
+}
+@font-face {
+    font-family: 'Neutraface New Yorker';
+    src: url(assets/fonts/NeutrafaceNewYorkerWeb-SemiBold.woff);
+}
+@font-face {
+    font-family: 'TNY Adobe Caslon COMP';
+    src: url(assets/fonts/AdobeCaslonPro-Regular.woff);
+}
+* {
+    box-sizing: border-box;
+  }
+
+.opener-background{
+background: black;
+top: 0px;
+    left: 0px;
+    position: absolute;
+
+}
+.background{
+    top: 0px;
+    left: 0px;
+    background: black;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    position: absolute;
+    width: 175px;
+height: 39.81px;
+top: 12px;
+}
+
+.opener_display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 448px;
+    height: 581px;
+    top: 201px;
+    border: 1.5px solid #FFFFFF;
+}
+
+.rubric{ 
+    font-family: 'Irvin';
+    font-size: 12px;
+    line-height: 12px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hed{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+font-family: 'Irvin';
+font-weight: 200;
+font-size: 48px;
+line-height: 58px;
+letter-spacing: 1px;
+color: #FFFFFF;
+
+}
+.hed1{
+font-family: 'Irvin';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 1px;
+color: #FFFFFF;
+}
+.hed2{
+    font-family: 'Irvin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 58px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.dek-container{
+    display: flex;
+    flex: column;
+    justify-content: center;
+}
+.dek{
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'TNY Adobe Caslon COMP';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.byline{
+    font-family: 'Neutraface New Yorker';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+.timestamp{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.social-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 126px;
+    height: 42px;
+    padding: 0px;
+    fill: #FFFFFF;
+}
+
+.introbody{
+    display: flex;
+flex-direction: column;
+align-items: center;
+border: 1.5px solid #FFFFFF;
+background: black;
+
+margin-bottom: 20px
+}
+.intro-container{
+    
+}
+.introduction{
+    font-family: 'Irvin';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 1px;
+text-transform: uppercase;
+background: black;
+
+color: #FFFFFF;
+}
+.myromance{
+    font-family: 'TNY Adobe Caslon COMP';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 39px;
+color: #FFFFFF;
+margin-bottom: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
